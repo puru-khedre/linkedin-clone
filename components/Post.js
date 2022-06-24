@@ -89,6 +89,7 @@ function Post({ post, modalPost }) {
       )}
       {post.photoUrl && !modalPost && (
         <img
+          alt="post image"
           src={post.photoUrl}
           className="w-full cursor-pointer"
           onClick={() => {

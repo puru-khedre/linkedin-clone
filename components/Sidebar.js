@@ -9,7 +9,7 @@ function Sidebar() {
     <div className="space-y-2 min-w-max max-w-lg">
       <div className="bg-white dark:bg-[#1D2226] rounded-lg overflow-hidden relative flex flex-col items-center text-center border border-gray-300 dark:border-none">
         <div className="relative w-full h-16">
-          <Image src={coverImg} layout="fill" />
+          <Image alt="cover image" src={coverImg} layout="fill" />
         </div>
         <Avatar
           onClick={signOut}
