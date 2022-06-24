@@ -59,10 +59,10 @@ function Post({ post, modalPost }) {
             {post.username}
           </h6>
           <p className="text-sm dark:text-white/75 opacity-80">{post.email}</p>
-          {/* <TimeAgo
+          <TimeAgo
             datetime={post.createdAt}
             className="text-xs dark:text-white/75 opacity-80"
-          /> */}
+          />
         </div>
         {modalPost ? (
           <IconButton onClick={() => setModalOpen(false)}>
