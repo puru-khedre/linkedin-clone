@@ -19,7 +19,12 @@ function Home({ providers }) {
       </Head>
       <header className="flex justify-around items-center py-4">
         <div className="relative w-36 h-10">
-          <Image src={logo} layout="fill" objectFit="contain" />
+          <Image
+            src={logo}
+            layout="fill"
+            objectFit="contain"
+            alt="linkedin logo"
+          />
         </div>
 
         <div className="flex items-center sm:divide-x divide-gray-300 ">
@@ -67,7 +72,7 @@ function Home({ providers }) {
         </div>
 
         <div className="relative xl:absolute w-80 h-80 xl:w-[650px] xl:h-[650px] top-14 right-5">
-          <Image src={homeIllus} layout="fill" priority />
+          <Image src={homeIllus} alt="" layout="fill" priority />
         </div>
       </main>
     </div>
